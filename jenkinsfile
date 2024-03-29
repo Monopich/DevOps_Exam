@@ -11,13 +11,11 @@ pipeline {
                 git branch: 'midterm', url: 'https://github.com/Monopich/DevOps_Exam.git'
             }
         }
-        stages{
         stage('Hello'){
             steps{
                 echo'Hello Welcome'
             }
         } 
-    }
     }
     post{
             success{
