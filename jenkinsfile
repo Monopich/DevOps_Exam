@@ -5,12 +5,12 @@ pipeline {
         CHAT_ID = "-1002012810646"
     }
     stages {
-        stage('Fetch from GitHub') { //build steps
-            steps {
-                echo 'Fetching for GitHub'
-                git branch: 'midterm', url: 'https://github.com/Monopich/DevOps_Exam.git'
-            }
-        }
+        // stage('Fetch from GitHub') { //build steps
+        //     steps {
+        //         echo 'Fetching for GitHub'
+        //         git branch: 'midterm', url: 'https://github.com/Monopich/DevOps_Exam.git'
+        //     }
+        // }
         stages{
         stage('Hello'){
             steps{
